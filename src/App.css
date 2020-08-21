@@ -1,0 +1,284 @@
+
+
+body, html {
+  height: 100%;
+}
+ 
+
+
+.App {
+  text-align: center;
+}
+
+.badge {
+ width: 60px;
+ height: 60px;
+ border-radius: 50%;
+ padding: 24px 5px 5px 5px;
+ color: black;
+ background-color: rgb(201, 67, 67);
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+.nav-email{
+  margin-left: 99px;
+  
+}
+
+.nav_phone, .nav_email{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: rgb(201, 67, 67);
+  padding: 5px 5px 5px 5px;
+  margin-top: 10px;
+}
+
+.profile{
+  width: 910px;
+  border: 1px solid rgb(241, 112, 112);
+  margin: auto;
+  
+
+}
+
+
+
+
+.line_break{
+  border: 2px solid blue;
+  width: 400px;
+}
+
+.smaller_hr{
+  border: 4px solid rgb(201, 67, 67);
+  width: 55px;
+  margin-top: -20px;
+}
+
+.Practice_areas{
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.dot1 {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.line1{
+  border-bottom: 2px solid grey;
+  height: 5px;
+  width: 190px;
+  display: inline-block;
+  margin-left: -190px;
+  margin-bottom: 3px;
+  
+}
+
+.dot2 {
+  height: 10px;
+  width: 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.line2{
+  border-bottom: 2px solid grey;
+  height: 5px;
+  width: 190px;
+  display: inline-block;
+  margin-right: -190px;
+  margin-bottom: 3px;
+  
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container > div {
+  height: 400px;
+  width: 260px;
+  margin: 10px;
+  background-color: rgb(16, 78, 129);
+  border-bottom:3px solid rgb(201, 67, 67);
+  color: white;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.flex-container >.taxation{
+  height: 420px;
+  margin-top: 30px;
+}
+
+.flex-container > div:hover {
+  background-color: rgb(201, 67, 67);
+  border-bottom: 4px solid rgb(16, 78, 129);
+}
+
+
+
+
+
+.flex-container > div > hr{
+  border: 1px solid white;
+  margin-top: 4px;
+}
+
+.mission_hr{
+  width: 1200px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+
+}
+
+.parallax {
+  /* The image used */
+  background-image: url(./Images/injury-law-firm.jpg);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.text-wrapper {
+  text-align: center;
+}
+
+.headline {
+  font-size: 15rem;
+  color: blueviolet;
+  font-weight: 100;
+  line-height: 0.5;
+}
+
+.headline::first-letter {
+  font-size: 20rem;
+}
+
+.sub-headline {
+  font-size: 10rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.parallax {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.overflow {
+  height: 20vh;
+}
+
+.section{
+  background-image: url('https://images.unsplash.com/photo-1589578527966-fdac0f44566c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mission_hr{
+  width: 500px;
+  border-radius: 3px;
+}
+
+.mission_hr_sub{
+  width: 60px;
+  border: 2px solid rgb(201, 67, 67);
+  border-radius: 3px;
+  margin-top: -19px;
+
+}
+
+.mission_li{
+  list-style: none;
+  line-height: 30px;
+}
+
+.footer{
+  height: 500px;
+  background-color: rgb(16, 78, 129);
+  border-bottom: 5px solid rgb(201, 67, 67);
+}
+
+.footer_icon_hr{
+  width: 400px;
+  background-color: grey;
+
+}
+
+.footer_icons{
+  display: flex;
+  list-style: none;
+  margin-left: 42%;
+}
+
+.contact_hr{
+  background-color: gray;
+}
+
+.contact_hr_sub{
+  margin-top: -13px;
+  background-color: gray;
+}
+
+.terms_hr{
+  background-color: gray;
+}
+
+.terms_hr_sub{
+  margin-top: -13px;
+  background-color: gray;
+}
+
+.overview_hr{
+  background-color: gray;
+}
+
+.overview_hr_sub{
+  margin-top: -13px;
+  background-color: gray;
+}
+
+.disclaimer_hr, .policy_hr, .conditions_hr{
+  border: 1px dotted gray;
+}
+
+
+
+
+
+
+
