@@ -39,6 +39,8 @@ body, html {
   width: 910px;
   border: 1px solid rgb(241, 112, 112);
   margin: auto;
+  padding: 5px;
+  box-shadow: 5px 10px 15px rgb(241, 112, 112);
   
 
 }
@@ -243,6 +245,10 @@ body, html {
   display: flex;
   list-style: none;
   margin-left: 42%;
+}
+
+.contact_font, .terms_font, .overview_font, .rc_font{
+  font-size: small;
 }
 
 .contact_hr{

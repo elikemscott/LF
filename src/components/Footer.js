@@ -30,35 +30,44 @@ import React from 'react'
 
     <div className="container">
         <div className="row">
-            <div className="col-4"> <h6>RICHARD CHAPMAN, ESQ</h6> <br/> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?
+            <div className="col-4"> <h6>RICHARD CHAPMAN, ESQ</h6> <br/> <p className="rc_font">Lorem ipsum dolor sit amet, 
+            consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum 
+            explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus 
+            voluptates voluptas? </p>
            <br/> <br/> <a>Learn more about our Practice <i class="fas fa-angle-double-right fa-xs"></i> </a></div>
             <div className="col-4">
                 <h6>CONTACT DETAILS</h6>
                 <hr className="contact_hr"></hr>
                 <hr className="contact_hr_sub"></hr>
+                <div className="contact_font">
                 <span><i class="fas fa-mobile-alt fa-xs"></i> &nbsp;Mobile: &nbsp; 00634568191</span> <br/> <br/>
-                <span><i class="fas fas-phone-alt"></i> &nbsp;Telephone: &nbsp; 00634568191</span> <br/> <br/>
-                <span><i class="far fa-envelope"></i>Email: &nbsp; richardchapman@mail.com</span> <br/> <br/>
+                <span><i class="fas fa-phone"></i> &nbsp;Telephone: &nbsp; 00634568191</span> <br/> <br/>
+                <span><i class="far fa-envelope"></i> &nbsp; Email: &nbsp; richardchapman@mail.com</span> <br/> <br/>
                 <span>20 Commerce Dr, Cranford, NJ 07016, USA</span>
+                </div>
             </div>
             <div className="col-2"><h6>TERMS OF SERVICE</h6>
             <hr className="terms_hr"></hr>
                 <hr className="terms_hr_sub"></hr>
+                <div className="terms_font">
                 <a>Disclaimer</a> <br/> 
                 <hr className="disclaimer_hr"></hr>
                 <a>Privacy Policy</a> <br/> 
                 <hr className="policy_hr"></hr> 
                 <a>Terms & Conditions</a>
                 </div>
+                </div>
                 
             <div className="col-2"><h6>OVERVIEW</h6>
             <hr className="overview_hr"></hr>
                 <hr className="overview_hr_sub"></hr>
+                <div className="overview_font">
                 <a>About Practice</a> <br/> 
                 <hr className="disclaimer_hr"></hr>
                 <a>Clients</a> <br/> 
                 <hr className="policy_hr"></hr> 
                 <a>Testimonies</a>
+                </div>
                 </div>
         </div> <br/> <br/>
         <p>Richard Chapman, &copy;2020. All Rights Reserved.</p>
