@@ -1,67 +1,82 @@
-
-
-body, html {
+body,
+html {
   height: 100%;
 }
- 
-
 
 .App {
   text-align: center;
 }
 
 .badge {
- width: 60px;
- height: 60px;
- border-radius: 50%;
- padding: 24px 5px 5px 5px;
- color: black;
- background-color: rgb(201, 67, 67);
- margin-top: 10px;
- margin-bottom: 10px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  padding: 24px 5px 5px 5px;
+  color: black;
+  background-color: rgb(201, 67, 67);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.nav {
+  margin: auto;
+
+  height: 45px;
 }
 
-.nav-email{
-  margin-left: 99px;
-  
+.nav > ul {
+  margin-top: -41px;
 }
 
-.nav_phone, .nav_email{
+.nav_color {
+  background-color: rgb(38, 118, 184);
+}
+
+.nav_phone,
+.nav_email {
   width: 25px;
   height: 25px;
   border-radius: 50%;
   background-color: rgb(201, 67, 67);
   padding: 5px 5px 5px 5px;
-  margin-top: 10px;
+  margin: auto;
 }
 
-.profile{
+.profile {
   width: 910px;
-  border: 1px solid rgb(241, 112, 112);
   margin: auto;
   padding: 5px;
-  box-shadow: 5px 10px 15px rgb(241, 112, 112);
-  
-
+  margin-top: 40px;
 }
 
-
-
-
-.line_break{
+.line_break {
   border: 2px solid blue;
   width: 400px;
 }
 
-.smaller_hr{
+.smaller_hr {
   border: 4px solid rgb(201, 67, 67);
   width: 55px;
   margin-top: -20px;
 }
 
-.Practice_areas{
-  font-weight: 600;
+.Practice_areas {
+  margin-top: -110px;
+
   font-size: x-large;
+}
+
+.taxation,
+.investment_law,
+.admin,
+.privatasation {
+  padding: 5px;
+  text-align: center;
+}
+.investment_law > h6,
+.taxation > h6,
+.admin > h6,
+.privatasation > h6 {
+  text-align: center;
 }
 
 .dot1 {
@@ -72,14 +87,13 @@ body, html {
   display: inline-block;
 }
 
-.line1{
+.line1 {
   border-bottom: 2px solid grey;
   height: 5px;
   width: 190px;
   display: inline-block;
   margin-left: -190px;
   margin-bottom: 3px;
-  
 }
 
 .dot2 {
@@ -90,14 +104,13 @@ body, html {
   display: inline-block;
 }
 
-.line2{
+.line2 {
   border-bottom: 2px solid grey;
   height: 5px;
   width: 190px;
   display: inline-block;
   margin-right: -190px;
   margin-bottom: 3px;
-  
 }
 
 .flex-container {
@@ -111,15 +124,10 @@ body, html {
   width: 260px;
   margin: 10px;
   background-color: rgb(16, 78, 129);
-  border-bottom:3px solid rgb(201, 67, 67);
+  border-bottom: 3px solid rgb(201, 67, 67);
   color: white;
   font-weight: 500;
   text-align: justify;
-}
-
-.flex-container >.taxation{
-  height: 420px;
-  margin-top: 30px;
 }
 
 .flex-container > div:hover {
@@ -127,20 +135,17 @@ body, html {
   border-bottom: 4px solid rgb(16, 78, 129);
 }
 
-
-
-
-
-.flex-container > div > hr{
+.flex-container > div > hr {
   border: 1px solid white;
   margin-top: 4px;
+  margin-left: -10px;
+  width: 280px;
 }
 
-.mission_hr{
+.mission_hr {
   width: 1200px;
   border: 1px solid lightgrey;
   border-radius: 3px;
-
 }
 
 .parallax {
@@ -148,7 +153,7 @@ body, html {
   background-image: url(./Images/injury-law-firm.jpg);
 
   /* Full height */
-  height: 100%; 
+  height: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -203,88 +208,88 @@ body, html {
   height: 20vh;
 }
 
-.section{
-  background-image: url('https://images.unsplash.com/photo-1589578527966-fdac0f44566c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+.section {
+  background-image: url("https://images.unsplash.com/photo-1589578527966-fdac0f44566c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.mission_hr{
+.mission {
+  margin-top: 40px;
+}
+.mission_hr {
   width: 500px;
   border-radius: 3px;
 }
 
-.mission_hr_sub{
+.mission_hr_sub {
   width: 60px;
   border: 2px solid rgb(201, 67, 67);
   border-radius: 3px;
   margin-top: -19px;
-
 }
 
-.mission_li{
+.mission_li {
   list-style: none;
   line-height: 30px;
 }
 
-.footer{
+.footer {
   height: 500px;
   background-color: rgb(16, 78, 129);
   border-bottom: 5px solid rgb(201, 67, 67);
+  margin-top: 40px;
+  color: whitesmoke;
 }
 
-.footer_icon_hr{
+.footer_header {
+  padding-top: 12px;
+}
+
+.footer_icon_hr {
   width: 400px;
   background-color: grey;
-
 }
 
-.footer_icons{
+.footer_icons {
   display: flex;
   list-style: none;
   margin-left: 42%;
 }
 
-.contact_font, .terms_font, .overview_font, .rc_font{
+.contact_font,
+.terms_font,
+.overview_font,
+.rc_font {
   font-size: small;
+  color: whitesmoke;
 }
 
-.contact_hr{
+.contact_hr {
   background-color: gray;
 }
 
-.contact_hr_sub{
-  margin-top: -13px;
+.contact_hr_sub {
+  margin-top: -15px;
   background-color: gray;
 }
 
-.terms_hr{
+.terms_hr {
   background-color: gray;
 }
 
-.terms_hr_sub{
-  margin-top: -13px;
+.terms_hr_sub {
+  margin-top: -15px;
   background-color: gray;
 }
 
-.overview_hr{
+.overview_hr {
   background-color: gray;
 }
 
-.overview_hr_sub{
-  margin-top: -13px;
+.overview_hr_sub {
+  margin-top: -15px;
   background-color: gray;
 }
-
-.disclaimer_hr, .policy_hr, .conditions_hr{
-  border: 1px dotted gray;
-}
-
-
-
-
-
-
-
