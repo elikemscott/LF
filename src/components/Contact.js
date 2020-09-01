@@ -29,7 +29,7 @@ function Contact() {
   
 </div>
 
-<div className="container">
+<div className="container get_in_touch">
     <div className="row">
         <div className="col-8">
             <h4>GET IN TOUCH</h4>

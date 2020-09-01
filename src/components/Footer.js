@@ -1,4 +1,5 @@
 import React from "react";
+import '../App.css'
 
 function Footer() {
   return (
@@ -92,7 +93,7 @@ function Footer() {
             </div>
           </div>{" "}
           <br /> <br />
-          <p>Richard Chapman, &copy;2020. All Rights Reserved.</p>
+          <p className='copyright'>Richard Chapman, &copy;2020. All Rights Reserved.</p>
         </div>
       </div>
     </div>

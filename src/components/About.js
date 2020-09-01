@@ -1,12 +1,13 @@
 import React from 'react';
-import contact_image from '../Images/image_1.jpeg'
+import contact_image from '../Images/image_7.jpeg'
 
  function About() {
     return (
         <div>
             
             <div>
-                <p className="firm">Our Firm</p>     <p className="home"> <a>Home </a> . Our Firm</p>
+                <p id="firm">Our Firm</p>     <p className="home"> <a>Home </a> - About Us</p>
+                <hr className="pr_hr"/>
             </div>
 
             <p className="about_profile"> <span>Richard Chapman, ESQ</span>  qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
@@ -19,7 +20,7 @@ import contact_image from '../Images/image_1.jpeg'
                       <hr/>
                   </div>
                   <div class="about_flex-container">
-        <div className="investment_law">
+        <div className="about_investment_law">
         <h6 className="about_practice_area">Practice Areas </h6> 
           <br /> <br />
           <p>
@@ -33,7 +34,7 @@ import contact_image from '../Images/image_1.jpeg'
 
         </div>
 
-        <div className="taxation">
+        <div className="about_taxation">
           <h6 className="about_mission">Our Mission</h6>   <br /> <br />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
@@ -42,8 +43,9 @@ import contact_image from '../Images/image_1.jpeg'
             Voluptatum ducimus voluptates voluptas?
           </p>
         </div>
+
         <div className="admin">
-         <h6 className="about_benefits">Benefits</h6>   <br /> <br />
+         <h6 className="about_benefits" id='about_benefits'>Benefits</h6>   <br /> <br />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
             non quis exercitationem culpa nesciunt nihil aut nostrum explicabo
@@ -150,21 +152,67 @@ import contact_image from '../Images/image_1.jpeg'
 
               
               </div>
+
+
               <div className="col-4"> Contact now <hr/>
-              <img src="contact_image" width="100px" height="100px"/>
-              <p>Richard Chapman</p>
-              <p>Ut enim ad minima veniam, quis nostrum exercitationem
-                   ullam corporis suscipit laboriosam, nisi ut aliquid ex 
-                   ea commodi vel samar this ki last man.</p>
-                   <p>87644360987</p>
+             
+<div class="card card-cascade wider">
 
+  
+  
+
+
+
+<div class="card card-cascade">
+
+  
+  <div class="view view-cascade overlay">
+    <img class="card-img-top" src={contact_image} height='280px' alt="Card image cap"/>
+    <a>
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  
+  <div class="card-body card-body-cascade text-center">
+
+    
+    <h4 class="card-title"><strong>Richard Chapman</strong></h4>
+    
+    
+    
+    <p class="card-text">For support or any questions: <br/>
+Email us at richard@mail.com <br/> <br/> Richard Chapman, ESQ USA <br/>
+20 Commerce Dr
+Cranford, <br/> NJ 07016
+USA <br/> <br/> Call us <br/>
+4848393939393 <br/>
+0948444646472
+
+    </p>
+
+    
+   
+
+  </div>
+
+</div>
+</div>
               </div>
-          </div>
       </div>
+             
 
+      
+      
+
+      <div className='testimonials'>
       <h4>Testimonials</h4>
       <span className="line1"></span> <span class="dot1"></span>
       <span class="dot2"></span> <span className="line2"></span>
+      </div>
+      
+
+      
 
       <div className="container">
           <div className="row">
@@ -173,14 +221,18 @@ import contact_image from '../Images/image_1.jpeg'
                     sunon et magnis dis. Cum sociis natoque pena tibus duis sunon et magnis dis.</q> </i> <br/>   <p className="testimonial_name">John Doe</p> </div>
               <div className="col"> <i> <q>Omnis voluptas assumenda est, omnis dolor repellendus.
                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus duis
-                    sunon et magnis dis. Cum sociis natoque pena tibus duis sunon et magnis dis.</q> </i> </div>
+                    sunon et magnis dis. Cum sociis natoque pena tibus duis sunon et magnis dis.</q> </i> <br/> <p className="testimonial_name">Paul Williams</p> </div>
               <div className="col"> <i> <q>Omnis voluptas assumenda est, omnis dolor repellendus.
                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus duis
-                    sunon et magnis dis. Cum sociis natoque pena tibus duis sunon et magnis dis.</q> </i> </div>
+                    sunon et magnis dis. Cum sociis natoque pena tibus duis sunon et magnis dis.</q> </i> <br/> <p className="testimonial_name">Derrick Walker</p> </div>
           </div>
       </div>
             
         </div>
+        </div>
+        
+        
+        
         
     )
 }

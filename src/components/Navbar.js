@@ -47,9 +47,9 @@ export default function Navbar() {
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-              <li class="nav-item active">
+              <li class="nav-item ">
                 <Link to='/' class="nav-link" >
-                  Home <span class="sr-only">(current)</span>
+                  Home 
                 </Link>
               </li>
               <li class="nav-item">

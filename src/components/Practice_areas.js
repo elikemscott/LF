@@ -10,7 +10,7 @@ import image7 from '../Images/image_7.jpeg';
  function Practice_areas() {
     return (
         <div>
-            <h4 id='practice_areas'> Practice Areas </h4>
+            <p id='practice_areas'> Practice Areas </p> <p className="home"> <a>Home </a> - Practice Areas</p>
             <hr className="pr_hr"/>
 
             <div className="container">
