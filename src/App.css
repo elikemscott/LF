@@ -236,6 +236,20 @@ html {
   line-height: 30px;
 }
 
+#practice_areas{
+  background-color: brown;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 220px;
+  height: 60px;
+  padding: 10px;
+}
+
+.pr_hr{
+  border: 3px solid whitesmoke;
+}
+
 .footer {
   height: 500px;
   background-color: rgb(16, 78, 129);
@@ -292,4 +306,80 @@ html {
 .overview_hr_sub {
   margin-top: -15px;
   background-color: gray;
+}
+
+.firm{
+  margin-left: 30px;
+  padding: 10px;
+  background-color: brown;
+  width: 200px;
+}
+
+.home{
+  margin-right: -1030px;
+  margin-top: -50px;
+}
+
+.about_profile{
+  padding: 30px 140px;
+}
+
+.about_profile span{
+  font-weight: 600;
+  color: rgb(4, 30, 41);
+
+}
+
+.about_trust{
+  min-height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1520004745082-400d0949f387?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-repeat: no-repeat ;
+  background-position: center center;
+  height: 250px;
+}
+
+.about_flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -70px;
+}
+
+.about_flex-container > div {
+  height: 450px;
+  width: 360px;
+  margin: 10px;
+  background-color: rgb(16, 78, 129);
+  border-top: 60px solid rgb(16, 78, 129) ;
+  color: white;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.about_flex-container > div:hover {
+  background-color: rgb(201, 67, 67);
+  border-top: 60px solid rgb(182, 39, 20);
+}
+
+.about_practice_area, .about_mission, .about_benefits{
+  margin-top: -45px;
+}
+
+.testimonial_name{
+  text-align: right;
+}
+
+
+
+.address{
+  font-weight: 500;
+}
+
+.call_us{
+  font-weight: 500;
+}
+
+.max-w{
+  
 }
