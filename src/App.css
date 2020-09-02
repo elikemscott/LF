@@ -411,5 +411,38 @@ html {
 }
 
 .max-w{
+  background-color: rgb(16, 78, 129);
+  height: 550px;
+  max-width: 650px ;
   
+}
+
+.pa-col{
+  background-color: rgb(16, 78, 129) ;
+  height: 550px;
+  max-width: 600px;
+}
+
+.pa-col-right{
+  background-color:rgb(16, 78, 129) ;
+  height: 550px;
+  max-width: 600px;
+  margin-left: 70px;
+  
+}
+.pa-image{
+  margin-left: 150px;
+  margin-top: 120px;
+}
+
+.pa-image-right{
+  margin-top: 100px;
+  margin-left: -70px;
+}
+
+.pa-text{
+  margin-left: 180px;
+}
+.pa-text-left{
+  margin-left: 170px;
 }

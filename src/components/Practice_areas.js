@@ -13,9 +13,9 @@ import image7 from '../Images/image_7.jpeg';
             <p id='practice_areas'> Practice Areas </p> <p className="home"> <a>Home </a> - Practice Areas</p>
             <hr className="pr_hr"/>
 
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
-                <div className="col-6 max-w"><img src={image3} height="400px" width="600px"/></div>
+                <div className="col-6 max-w"><img src={image2} height="300px" width="400px"/></div>
                 <div className="col-1"></div>
                 <div className="col-5">
                     <span>Cooperate Finance and Securities</span> 
@@ -68,7 +68,7 @@ import image7 from '../Images/image_7.jpeg';
                 </div>
             </div>  <br/> <br/> <br/>
 
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
                     
                     <div className="col-5">
@@ -111,7 +111,7 @@ import image7 from '../Images/image_7.jpeg';
 
 </div></div>
                     <div className="col-1"></div>
-                    <div className="col-6"> <img src={image6}  height="400px" width="600px"/> </div>
+                    <div className="col-6 max-w"> <img src={image6}  height="200px" width="500px"/> </div>
                 </div>
             </div>  <br/> <br/> <br/>
 
@@ -164,7 +164,7 @@ import image7 from '../Images/image_7.jpeg';
                 </div>
             </div>  <br/> <br/> <br/>
 
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
                     
                     <div className="col-5">
@@ -207,7 +207,7 @@ import image7 from '../Images/image_7.jpeg';
                 </div>
             </div> <br/> <br/> <br/>
 
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row">
                 <div className="col-6 max-w"><img src={image7} height="400px" width="600px"/></div>
                 <div className="col-1"></div>
