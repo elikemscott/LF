@@ -15,12 +15,10 @@ import image7 from '../Images/image_7.jpeg';
 
             <div className="container">
                 <div className="row">
-                <div className="col-6 max-w"><img src={image3} height="400px" width="100%"/></div>
+                <div className="col-6 max-w"><img src={image3} height="400px" width="600px"/></div>
                 <div className="col-1"></div>
                 <div className="col-5">
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis 
-                        exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet
-                         ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</span> 
+                    <span>Cooperate Finance and Securities</span> 
                
 <div class="accordion md-accordion" id="accordionEx1" role="tablist" aria-multiselectable="true">
 
@@ -41,21 +39,15 @@ import image7 from '../Images/image_7.jpeg';
     <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1"
       data-parent="#accordionEx1">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-        wolf
-        moon
-        officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-        Brunch
-        3
-        wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-        shoreditch
-        et.
-        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-        Ad
-        vegan
-        excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
-        nesciunt
-        you probably haven't heard of them accusamus labore sustainable VHS.
+      Examples of my extensive experience in corporate finance and securities include: <br/> <br/>
+      * Equity and debt issues, investment banking, public offering and private placements of securities by local and foreign issuers.<br/> <br/>
+      * Due diligence reports for a myriad of prospective investors internationally.<br/> <br/>
+      *Advising a leading international financial institution on the relevant American law in the floating of exchangeable bonds on the London Stock Exchange.<br/>
+      *Advising clients on floated convertible bonds on the London and New York Stock Exchanges.<br/> <br/>
+      * Advising on mergers, reconstructions and restructuring of financial businesses.<br/> <br/>
+      * Providing advice on American law in relation to foreign ownership of securities, local market practice governing trading and settlement of securities.<br/> <br/>
+      *Advising on gold mining concessions including the raising of capital from a syndicate of lenders from the United Kingdom.<br/> <br/>
+      * Advising on legal and regulatory environment and local licensing requirements for the issuance of debt securities in America
       </div>
     </div>
 
@@ -80,9 +72,7 @@ import image7 from '../Images/image_7.jpeg';
                 <div className="row">
                     
                     <div className="col-5">
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem 
-                        culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi
-                         cupiditate. Voluptatum ducimus voluptates voluptas?</span>
+                    <span>Investment Law</span>
                         <div class="accordion md-accordion" id="accordionEx1" role="tablist" aria-multiselectable="true">
 
   
@@ -102,21 +92,14 @@ import image7 from '../Images/image_7.jpeg';
   <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1"
     data-parent="#accordionEx1">
     <div class="card-body">
-      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-      wolf
-      moon
-      officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-      Brunch
-      3
-      wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-      shoreditch
-      et.
-      Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-      Ad
-      vegan
-      excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
-      nesciunt
-      you probably haven't heard of them accusamus labore sustainable VHS.
+    Because of a more realistic and market determined exchange rate, privatisation of state-owned companies,
+     liberalisation of trade and relaxation of controls, America’s investment climate is very congenial to both 
+     local and foreign investors.I represents investors in obtaining the appropriate licences from the  Investment 
+     Promotion Centre  and other governmental agencies I have been instrumental in and has been an industry leader in 
+     thesetting up of major investment companies in the areas of:Cellular telecommunications network in America;A major explosives 
+     factory;The setting up of a medical laboratory and clinical pathology company; and,The shipping and mercantile business.
+     I have also played a leading role in the setting up of other major companies in mining, leasing and finance, security services, 
+     construction, television and film production.
     </div>
   </div>
 
@@ -128,18 +111,16 @@ import image7 from '../Images/image_7.jpeg';
 
 </div></div>
                     <div className="col-1"></div>
-                    <div className="col-6"> <img src={image6}  height="400px" width="100%"/> </div>
+                    <div className="col-6"> <img src={image6}  height="400px" width="600px"/> </div>
                 </div>
             </div>  <br/> <br/> <br/>
 
             <div className="container">
                 <div className="row">
-                <div className="col-6 max-w"><img src={image7} height="400px" width="100%"/></div>
+                <div className="col-6 max-w"><img src={image7} height="400px" width="600px"/></div>
                 <div className="col-1"></div>
                 <div className="col-5">
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis 
-                        exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet
-                         ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?</span> 
+                    <span>Taxation</span> 
                
 <div class="accordion md-accordion" id="accordionEx1" role="tablist" aria-multiselectable="true">
 
@@ -160,21 +141,9 @@ import image7 from '../Images/image_7.jpeg';
     <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1"
       data-parent="#accordionEx1">
       <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-        wolf
-        moon
-        officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-        Brunch
-        3
-        wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-        shoreditch
-        et.
-        Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-        Ad
-        vegan
-        excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
-        nesciunt
-        you probably haven't heard of them accusamus labore sustainable VHS.
+      I have a wide-range of expertise in tax matters and offers advice on tax liabilities, incentives and exemptions for old, 
+      new and investing companies.i regularly advise on various tax structures, taking advantage of the fiscal and tax incentives 
+      incorporated in the Minerals and Mining Law.
       </div>
     </div>
 
@@ -199,9 +168,7 @@ import image7 from '../Images/image_7.jpeg';
                 <div className="row">
                     
                     <div className="col-5">
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem 
-                        culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi
-                         cupiditate. Voluptatum ducimus voluptates voluptas?</span>
+                    <span>Administration of Estate and Probate</span>
                         <div class="accordion md-accordion" id="accordionEx1" role="tablist" aria-multiselectable="true">
 
   
@@ -221,21 +188,10 @@ import image7 from '../Images/image_7.jpeg';
   <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1"
     data-parent="#accordionEx1">
     <div class="card-body">
-      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
-      wolf
-      moon
-      officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
-      Brunch
-      3
-      wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
-      shoreditch
-      et.
-      Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-      Ad
-      vegan
-      excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
-      nesciunt
-      you probably haven't heard of them accusamus labore sustainable VHS.
+    In addition to providing legal representation and advice in this area of practice, 
+    I have legal expertise in matters pertaining to testate and intestate succession.
+    My expertise covers drafting of wills, legal representation in court for the grant and resealing of Letters of Administration, 
+    Probate, registration of Probate granted outside the jurisdiction and litigation arising therefrom as well as administration of estates
     </div>
   </div>
 
@@ -247,9 +203,66 @@ import image7 from '../Images/image_7.jpeg';
 
 </div></div>
                     <div className="col-1"></div>
-                    <div className="col-6"> <img src={image4}  height="400px" width="100%"/> </div>
+                    <div className="col-6"> <img src={image4}  height="400px" width="600px"/> </div>
+                </div>
+            </div> <br/> <br/> <br/>
+
+            <div className="container">
+                <div className="row">
+                <div className="col-6 max-w"><img src={image7} height="400px" width="600px"/></div>
+                <div className="col-1"></div>
+                <div className="col-5">
+                    <span>Privitasation and Diversiture</span> 
+               
+<div class="accordion md-accordion" id="accordionEx1" role="tablist" aria-multiselectable="true">
+
+  
+  <div class="card">
+
+   
+    <div class="card-header" role="tab" id="headingTwo1">
+      <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx1" href="#collapseTwo1"
+        aria-expanded="false" aria-controls="collapseTwo1">
+        <h5 class="mb-0">
+          Expand <i class="fas fa-angle-down rotate-icon"></i>
+        </h5>
+      </a>
+    </div>
+
+   
+    <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1"
+      data-parent="#accordionEx1">
+      <div class="card-body">
+      As one of the lawyers  acting as legal consultants to the Divestiture Implementation Committee in America,
+       I have assisted in the structuring and accelerated divestiture of Government interest in state-owned enterprises.
+       Experience in this area includes conducting legal and corporate due diligence and preparing related reports for the 
+       Government to divest its shares in certain state-owned enterprises.I have also acted as legal advisers to several institutional
+        investors in the USA, Japan and Malaysia in their bid to purchase Government interest state-owned enterprises engaged in diverse 
+        business activities ranging from film production and exhibition to construction, transport and banking.As legal advisers to a UK 
+        statutory corporation focused on investment in developing countries, i assisted in structuring financial packages for a glass manufacturing 
+        state-owned enterprise when theGovernment divested its interest; the financing and the establishment of Tetrapak facilities and the expansion
+        of business activities of two fruit processing companies.
+      </div>
+    </div>
+
+  </div>
+  
+  
+  
+  
+
+</div>
+
+                </div>
+               
+
+
+                    
+
                 </div>
             </div> 
+
+            
 
            
 

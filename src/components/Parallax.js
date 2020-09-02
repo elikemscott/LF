@@ -74,42 +74,43 @@ export default function App() {
       <span className="line1"></span> <span class="dot1"></span>
       <span class="dot2"></span> <span className="line2"></span>
       <div class="flex-container">
+      <div className="taxation">
+          <hr></hr> <h6>COOPERATE FINANCE AND SECURITIES</h6> <br /> <br />
+          <p>
+          Examples of my extensive experience in corporate finance and securities include:
+           Equity and debt issues, investment banking, public offering and private placements of securities by local and foreign issuers.
+          </p>
+        </div>
+
+
         <div className="investment_law">
           <hr className="investment_law_hr"></hr> <h6>INVESTMENT LAW </h6>
           <br /> <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-            non quis exercitationem culpa nesciunt nihil aut nostrum explicabo
-            reprehenderit optio amet ab temporibus asperiores quasi cupiditate.
-            Voluptatum ducimus voluptates voluptas?
+          Because of a more realistic and market determined exchange rate, privatisation of state-owned companies, 
+          liberalisation of trade and relaxation of controls, America’s investment climate is very congenial to both local and foreign investors.
           </p>
         </div>
 
         <div className="taxation">
           <hr></hr> <h6>TAXATION</h6> <br /> <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-            non quis exercitationem culpa nesciunt nihil aut nostrum explicabo
-            reprehenderit optio amet ab temporibus asperiores quasi cupiditate.
-            Voluptatum ducimus voluptates voluptas?
+          I have a wide-range of expertise in tax matters and offers advice on tax liabilities, 
+          incentives and exemptions for old, new and investing companies.
           </p>
         </div>
         <div className="admin">
           <hr></hr> <h6>ADMINISTRATION OF ESTATE AND PROBATE</h6> <br /> <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-            non quis exercitationem culpa nesciunt nihil aut nostrum explicabo
-            reprehenderit optio amet ab temporibus asperiores quasi cupiditate.
-            Voluptatum ducimus voluptates voluptas?
+          In addition to providing legal representation and advice in this area of practice, 
+          I have legal expertise in matters pertaining to testate and intestate succession.
           </p>
         </div>
         <div className="privatasation">
           <hr></hr> <h6>PRIVITASATION AND DIVERSITURE</h6> <br /> <br />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-            non quis exercitationem culpa nesciunt nihil aut nostrum explicabo
-            reprehenderit optio amet ab temporibus asperiores quasi cupiditate.
-            Voluptatum ducimus voluptates voluptas?
+          As one of the lawyers  acting as legal consultants to the Divestiture Implementation Committee in America, 
+          I have assisted in the structuring and accelerated divestiture of Government interest in state-owned enterprises.
           </p>
         </div>
       </div>
