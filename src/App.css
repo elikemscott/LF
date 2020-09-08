@@ -1,9 +1,7 @@
 /* Mobile screens */
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+  
   .mobile-carousel{
     height: 450px;
   }
@@ -522,7 +520,7 @@
 
 
 /*.....................................*/
- *{border: 1px solid red;}
+
 body,
 html {
   height: 100%;
@@ -761,7 +759,7 @@ html {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-  body{ background-color: black;}
+  
   
   
  }
