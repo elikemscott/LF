@@ -521,6 +521,45 @@
 
 /*.....................................*/
 
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .pa-col{
+    background-color: rgb(16, 78, 129) ;
+    height: 550px;
+    max-width: 600px;
+  }
+  
+  .pa-col-right{
+    background-color:rgb(16, 78, 129) ;
+    height: 550px;
+    max-width: 600px;
+    margin-left: 9.375rem;
+    
+  }
+  .pa-image{
+    margin-left: 150px;
+    margin-top: 7.5rem;
+  }
+  
+  .pa-image-right{
+    margin-top: 100px;
+    margin-left: -4.375rem;
+  }
+  
+  .pa-text{
+    margin-left: 11.25rem;
+  }
+  .pa-text-left{
+    margin-left: 0px;
+  }
+
+
+}
+
+/*..........................................*/
+
 body,
 html {
   height: 100%;
