@@ -27,7 +27,7 @@ function Footer() {
         <hr className="footer_icon_hr"></hr> <br /> <br />
         <div className="container">
           <div className="row">
-            <div className="col-4">
+            <div className="col-12 col-md-4 mobile-footer-esq">
               {" "}
               <h6>RICHARD CHAPMAN, ESQ</h6> <br />{" "}
               <p className="rc_font">
@@ -43,7 +43,7 @@ function Footer() {
                 <i class="fas fa-angle-double-right fa-xs"></i>{" "}
               </a>
             </div>
-            <div className="col-4">
+            <div className="col-0 col-md-4 ">
               <h6>CONTACT DETAILS</h6>
               <hr className="contact_hr"></hr>
               <hr className="contact_hr_sub"></hr>
@@ -66,7 +66,7 @@ function Footer() {
                 <span>20 Commerce Dr, Cranford, NJ 07016, USA</span>
               </div>
             </div>
-            <div className="col-2">
+            <div className=" col-0 col-md-2 ">
               <h6>TERMS OF SERVICE</h6>
               <hr className="terms_hr"></hr>
               <hr className="terms_hr_sub"></hr>
@@ -79,7 +79,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="col-2">
+            <div className="col-0 col-md-2 ">
               <h6>OVERVIEW</h6>
               <hr className="overview_hr"></hr>
               <hr className="overview_hr_sub"></hr>

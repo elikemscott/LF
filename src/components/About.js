@@ -58,7 +58,7 @@ import contact_image from '../Images/image_7.jpeg'
 
       <div className="container">
           <div className="row">
-              <div className="col-8">Why Us <hr/>
+              <div className="col-12 col-md-8">Why Us <hr/>
              
 <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
 
@@ -154,7 +154,7 @@ import contact_image from '../Images/image_7.jpeg'
               </div>
 
 
-              <div className="col-4"> Contact now <hr/>
+              <div className=" col-12 col-md-4"> Contact now <hr/>
              
 <div class="card card-cascade wider">
 

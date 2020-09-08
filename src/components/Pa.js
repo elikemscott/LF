@@ -16,8 +16,8 @@ export default function Pa() {
         <div>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-7 pa-col"><img className="pa-image" src={image7} height="283" width="424"/></div>
-                    <div className="col-5 pa-text">
+                    <div className="col-12 col-md-7 pa-col"><img className="pa-image" src={image7} height="283" width="424"/></div>
+                    <div className="col-12 col-md-5 pa-text">
                         <h4>Cooperate Finance and Securities</h4>
                         <p> Examples of my extensive experience in corporate finance and securities include: <br/> <br/>
       * Equity and debt issues, investment banking, public offering and private placements of securities by local and foreign issuers.<br/> <br/>
@@ -36,7 +36,7 @@ export default function Pa() {
 
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-5 pa-text-left">
+                    <div className="col-12 col-md-5 pa-text-left">
                         <h4>Investment Law</h4>
                         <p>Because of a more realistic and market determined exchange rate, privatisation of state-owned companies,
      liberalisation of trade and relaxation of controls, America’s investment climate is very congenial to both 
@@ -47,15 +47,15 @@ export default function Pa() {
      I have also played a leading role in the setting up of other major companies in mining, leasing and finance, security services, 
      construction, television and film production.</p>
                     </div>
-                    <div className="col-7 pa-col-right"> <img className="pa-image-right" src={image10} height="322" width="480"/> </div>
+                    <div className="col-12 col-md-7 pa-col-right"> <img className="pa-image-right" src={image10} height="322" width="480"/> </div>
                 </div>
             </div>
             <hr/>
 
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-7 pa-col"><img className="pa-image" src={image8} height="283" width="424"/></div>
-                    <div className="col-5 pa-text">
+                    <div className="col-12 col-md-7 pa-col"><img className="pa-image" src={image8} height="283" width="424"/></div>
+                    <div className="col-12 col-md-5 pa-text">
                         <h4>Taxation</h4>
                         <p>  I have a wide-range of expertise in tax matters and offers advice on tax liabilities, incentives and exemptions for old, 
       new and investing companies.i regularly advise on various tax structures, taking advantage of the fiscal and tax incentives 
@@ -66,21 +66,21 @@ export default function Pa() {
 
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-5 pa-text-left">
+                    <div className="col-md-5 pa-text-left">
                         <h4>Administration of Estate and Probate</h4>
                         <p> In addition to providing legal representation and advice in this area of practice, 
     I have legal expertise in matters pertaining to testate and intestate succession.
     My expertise covers drafting of wills, legal representation in court for the grant and resealing of Letters of Administration, 
     Probate, registration of Probate granted outside the jurisdiction and litigation arising therefrom as well as administration of estat</p>
                     </div>
-                    <div className="col-7 pa-col-right"><img className="pa-image-right" src={image9} height="322" width="480"/> </div>
+                    <div className="col-md-7 pa-col-right"><img className="pa-image-right" src={image9} height="322" width="480"/> </div>
                 </div>
             </div> <hr/>
 
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-7 pa-col"><img className="pa-image" src={image11} height="283" width="424"/></div>
-                    <div className="col-5 pa-text">
+                    <div className="col-12 col-md-5 pa-text">
                         <h4>Privitasation and Diversiture</h4>
                         <p> As one of the lawyers  acting as legal consultants to the Divestiture Implementation Committee in America,
        I have assisted in the structuring and accelerated divestiture of Government interest in state-owned enterprises.

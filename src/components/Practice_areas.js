@@ -15,7 +15,7 @@ import image7 from '../Images/image_7.jpeg';
 
             <div className="container-fluid">
                 <div className="row">
-                <div className="col-6 max-w"><img src={image2} height="300px" width="400px"/></div>
+                <div className="col-6  max-w"><img src={image2} height="300px" width="400px"/></div>
                 <div className="col-1"></div>
                 <div className="col-5">
                     <span>Cooperate Finance and Securities</span> 
