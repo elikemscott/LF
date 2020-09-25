@@ -36,7 +36,7 @@ export default function Pa() {
 
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-12 col-md-5 pa-text-left">
+                    <div className="col-12 col-md-5 pa-text-left investment-mobile-text">
                         <h4>Investment Law</h4>
                         <p>Because of a more realistic and market determined exchange rate, privatisation of state-owned companies,
      liberalisation of trade and relaxation of controls, America’s investment climate is very congenial to both 
@@ -47,7 +47,7 @@ export default function Pa() {
      I have also played a leading role in the setting up of other major companies in mining, leasing and finance, security services, 
      construction, television and film production.</p>
                     </div>
-                    <div className="col-12 col-md-7 pa-col-right"> <img className="pa-image-right" src={image10} height="322" width="480"/> </div>
+                    <div className="col-12 col-md-7 pa-col-right investment-mobile-image"> <img className="pa-image-right" src={image10} height="322" width="480"/> </div>
                 </div>
             </div>
             <hr/>
@@ -66,14 +66,14 @@ export default function Pa() {
 
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-5 pa-text-left">
+                    <div className="col-md-5 pa-text-left probate-mobile-text">
                         <h4>Administration of Estate and Probate</h4>
                         <p> In addition to providing legal representation and advice in this area of practice, 
     I have legal expertise in matters pertaining to testate and intestate succession.
     My expertise covers drafting of wills, legal representation in court for the grant and resealing of Letters of Administration, 
     Probate, registration of Probate granted outside the jurisdiction and litigation arising therefrom as well as administration of estat</p>
                     </div>
-                    <div className="col-md-7 pa-col-right"><img className="pa-image-right" src={image9} height="322" width="480"/> </div>
+                    <div className="col-md-7 pa-col-right probate-mobile-image"><img className="pa-image-right" src={image9} height="322" width="480"/> </div>
                 </div>
             </div> <hr/>
 

@@ -225,8 +225,29 @@
    text-align: justify;
 
   }
-  .pa-text-left{
-   
+  
+
+  .investment-mobile-text{
+    position: relative;
+    bottom: -570px;
+
+  }
+
+  .investment-mobile-image{
+    position: relative;
+    top: -500px;
+
+  }
+
+  .probate-mobile-text{
+    position: relative;
+    bottom: -580px;
+
+  }
+  .probate-mobile-image{
+    position: relative;
+    top: -300px;
+
   }
 
   .about_profile{
